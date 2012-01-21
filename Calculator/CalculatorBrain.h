@@ -13,6 +13,6 @@
 - (void)pushOperand:(NSString*)aOperand;
 
 - (BOOL)pushOperator:(NSString*) aOperator
-        operationResult:(double*) aResult;
+     operationResult:(double*) aResult;;
 
 @end
