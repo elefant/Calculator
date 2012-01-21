@@ -102,7 +102,7 @@ enum
             
             if( [self getOperatorPrecedence:aOperator] <= [self getOperatorPrecedence:lastOperator] )
             {
-                [self.operatorStack removeLastObject];
+                [self.operatorStack removeLastObject];;
                 
                 *aResult = [self performOperation:lastOperator];
                 operationPerformed = YES;
